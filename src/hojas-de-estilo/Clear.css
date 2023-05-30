@@ -1,0 +1,51 @@
+.boton-clear {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    padding: 4px;
+    background-image: linear-gradient(
+        150deg,
+        #04eb4a,
+        rgb(3, 148, 184),
+        #0dff
+    );
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 8px;
+    border: 0px;
+    margin: 4px;
+    user-select: none;
+    
+}
+
+.boton-clear span {
+    height: 70px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    padding: 2px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 8px;
+    border: 0px;
+    margin: 4px;
+    user-select: none;
+}
+
+.boton-clear:hover span {
+    background: none;
+}
+
+.boton-clear:active {
+    transform: scale(0.9);
+}
